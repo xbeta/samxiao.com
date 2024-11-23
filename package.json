@@ -1,48 +1,48 @@
 {
-    "name": "samxiao.com",
-    "scripts": {
-        "dev": "hugo server",
-        "build": "hugo --minify",
-        "watch": "hugo server -b http://localhost -p 8000 --bind=0.0.0.0",
-        "tailwind-jit": "./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit",
-        "tailwind-build": "NODE_ENV=production npm run tailwind-jit --",
-        "tailwind-watch": "NODE_ENV=development npm run tailwind-jit -- -w",
-        "lint": "eslint \"**/*.{ts,tsx}\"",
-        "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
-        "format": "prettier --write .",
-        "type-check": "tsc --noEmit"
-    },
-    "dependencies": {
-        "eslint": "^9.15.0",
-        "markdownlint": "^0.36.1",
-        "typescript": "^5.6.3",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@eslint/js": "9.13.0",
-        "@types/react": "^18.3.12",
-        "@types/react-dom": "^18.2.0",
-        "@typescript-eslint/eslint-plugin": "^8.15.0",
-        "@typescript-eslint/parser": "^8.15.0",
-        "autoprefixer": "^10.4.16",
-        "eslint": "^9.15.0",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-react": "^7.37.2",
-        "eslint-plugin-react-hooks": "^5.0.0",
-        "husky": "^9.1.7",
-        "postcss": "^8.4.31",
-        "postcss-cli": "^11.0.0",
-        "prettier": "^3.3.3",
-        "prettier-plugin-tailwindcss": "^0.6.9",
-        "tailwindcss": "^3.3.5",
-        "typescript": "^5.6.3"
-    },
-    "keywords": [
-        "markdown",
-        "lint",
-        "md",
-        "CommonMark",
-        "markdownlint"
-    ]
+  "name": "samxiao.com",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --minify",
+    "watch": "hugo server -b http://localhost -p 8000 --bind=0.0.0.0",
+    "tailwind-jit": "./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit",
+    "tailwind-build": "NODE_ENV=production npm run tailwind-jit --",
+    "tailwind-watch": "NODE_ENV=development npm run tailwind-jit -- -w",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "eslint": "^9.15.0",
+    "markdownlint": "^0.36.1",
+    "typescript": "^5.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "husky": "^9.1.7",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "markdown",
+    "lint",
+    "md",
+    "CommonMark",
+    "markdownlint"
+  ]
 }
