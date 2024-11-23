@@ -12,9 +12,11 @@ autoSwitchAppearance = true
 defaultThemeColor = "#FFFFFF"
 
 enableSearch = false
-enableCodeCopy = false
+enableCodeCopy = true
 enableImageLazyLoading = true
-enableImageWebp = true
+# Breaks GIFs if true!
+enableImageWebp = false
+enableQuicklink = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
@@ -27,14 +29,14 @@ fingerprintAlgorithm = "sha256"
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 5
+  recentLimit = 3
 
 [article]
   showDate = true
@@ -49,11 +51,11 @@ fingerprintAlgorithm = "sha256"
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showWordCount = false
   showComments = false
-  # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo"]
+  sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo"]
 
 [list]
   showBreadcrumbs = false

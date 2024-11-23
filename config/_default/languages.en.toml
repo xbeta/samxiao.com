@@ -29,13 +29,13 @@ theme = "congo"
   keywords = "homepage, blog"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Sam Xiao's personal website and blog."
 
 [params.author]
   name = "Sam Xiao"
   image = "images/avatar/author.png"
   headline = "Software Engineer"
-  bio = "Senior Software Engineer, Tech Lead, Engineering Manager"
+  bio = "Husband, father, software engineer, leader, geek, soccer fanatic, and all-around curious human."
   links = [
      { email = "mailto:sam.xs.xiao@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },

@@ -1,5 +1,5 @@
 ---
-description: Personal website of Sam Xiao, an experienced software engineer, passionate about AI/ML/Fintech/Data.
+description: Sam Xiao’s personal site - software engineer fueled by a passion for AI, ML, Fintech, and Data.
 title: 'Sam Xiao'
 ---
 
@@ -10,17 +10,13 @@ I am actively looking for a software engineer position, ideally (i) starting bet
 {{< /alert >}}
 -->
 
-<br>
+Welcome 👋,
 
-Hello, I'm Sam Xiao, an experienced software engineer, passionate about AI/ML/Fintech/Data.
+I’m Sam Xiao — a software engineer, technical leader, and problem-solver with 15+ years of experience turning ideas into impactful technology. From starting as a founding engineer at a 7-person startup to working at hyper-growth companies, I’ve built and scaled systems for fintech, AI/ML, and data-driven products. Along the way, I’ve worn many hats — from backend, infosec, and DevOps to data engineering and MLOps — crafting solutions that handle scale and drive value.
 
-<!--
-I am particularly interested in XXX.
--->
+Outside of work, I’m endlessly curious about AI, machine learning, and how technology can improve lives. 
 
-
-
-<br>
+Thanks for visiting!
 
 {{< button href="/about/" target="_self" >}}
 Learn more
